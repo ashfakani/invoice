@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <style>
+    .form-inline {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+    }
+
+    /* Add some margins for each label */
+    .form-inline label {
+      margin: 5px 10px 5px 0;
+    }
+
+    /* Style the input fields */
+    .form-inline input {
+      vertical-align: middle;
+      margin: 5px 10px 5px 0;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+    }
+
+    /* Style the submit button */
+    .form-inline button {
+      padding: 10px 20px;
+      background-color: dodgerblue;
+      border: 1px solid #ddd;
+      color: white;
+    }
+
+    .form-inline button:hover {
+      background-color: royalblue;
+    }
+
+    /* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than
+  800px wide */ -->
+  <style>
+    @media (max-width: 800px) {
+      .form-inline input {
+        margin: 10px 0;
+      }
+
+      .form-inline {
+        flex-direction: column;
+        align-items: stretch;
+      }
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <header>
+    <div class="container form-inline">
+      <h1
+        style="background-color:rgb(3, 21, 70); text-align:center; color:white; height: 80px; padding-top: 40px; text-transform: uppercase;">
+        Invoice</h1>
+      <!-- logo add  -->
+      <!-- <div style="display: flex; justify-content:center">
+        <img height="100px" src="images/logo.jpg" alt="">
+      </div> -->
+      <!-- end logo add  -->
+    </div>
+    <br>
+  </header>
+  <main>
+    <!-- old info table   -->
+    <!-- <div class="form-inline" style="display: flex; flex-flow: row wrap;
+align-items: center;">
+      <div style="margin-right: 500px; margin-left: 50px;">
+
+
+
+
+        <p style="font-weight: bold;">Nayeem Islam</p>
+        <p>Noman <br>
+          Dhaka,Bangladesh
+          <br>
+          01341513161 | <a href="">ashfak.ahmed@ada-asia.com</a>
+        </p>
+
+
+      </div>
+      <div>
+
+
+
+        <p style="font-weight: bold;">Nayeem Islam</p>
+        <p>Noman <br>
+          Dhaka,Bangladesh
+          <br>
+          01341513161 | <a href="">ashfak.ahmed@ada-asia.com</a>
+        </p>
+
+      </div>
+    </div> -->
+    <!-- old info table end  -->
+
+
+    <!-- < table  -->
+    <div>
+      <h2>HTML Table</h2>
+
+      <table class="form-inline" style="border-collapse: collapse;
+width: 100%; ">
+        <tr style="border: 1px solid #dddddd; text-align: left;
+  padding: 8px;">
+          <th style="border: 1px solid black;">Invoice No</th>
+          <th style="border: 1px solid black;">Year</th>
+          <th style="border: 1px solid black;">Month</th>
+          <th style="border: 1px solid black;">Company</th>
+          <th style="border: 1px solid black;">Usage</th>
+          <th style="border: 1px solid black;">Collection</th>
+          <th style="border: 1px solid black;">TDS</th>
+          <th style="border: 1px solid black;">TDS Collected</th>
+          <th style="border: 1px solid black;">VDS</th>
+          <th style="border: 1px solid black;">VDS Collected</th>
+        </tr>
+        <tr style="border: 1px solid #dddddd; text-align: left;
+  padding: 8px;">
+          <td style="border: 1px solid black;">Alfreds Futterkiste</td>
+          <td style="border: 1px solid black;">Maria Anders</td>
+          <td style="border: 1px solid black;">Germany</td>
+          <td style="border: 1px solid black;">Alfreds Futterkiste</td>
+          <td style="border: 1px solid black;">Maria Anders</td>
+          <td style="border: 1px solid black;">Germany</td>
+          <td style="border: 1px solid black;">Alfreds Futterkiste</td>
+          <td style="border: 1px solid black;">Maria Anders</td>
+          <td style="border: 1px solid black;">Germany</td>
+          <td style="border: 1px solid black;">Germany</td>
+        </tr>
+
+      </table>
+    </div>
+    <br>
+    <!-- <div>
+      <form class="form-inline" action="/action_page.php">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter email" name="email">
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" placeholder="Enter password" name="pswd">
+        <label>
+          <input type="checkbox" name="remember"> Remember me
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    </div> -->
+    <!-- Test info table  -->
+    <div class="row">
+      <div class="column" style="float: left; width: 50%;">
+        <p style="font-weight: bold;">Nayeem Islam</p>
+        <p>Noman <br>
+          Dhaka,Bangladesh
+          <br>
+          01341513161 | <a href="">ashfak.ahmed@ada-asia.com</a>
+        </p>
+
+
+      </div>
+      <div class="column" style="float: right; width: 50%;">
+
+
+
+
+        <p style="font-weight: bold;">Nayeem Islam</p>
+        <p>Noman <br>
+          Dhaka,Bangladesh
+          <br>
+          01341513161 | <a href="">ashfak.ahmed@ada-asia.com</a>
+        </p>
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>
